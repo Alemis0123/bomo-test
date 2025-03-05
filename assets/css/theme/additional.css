@@ -1,0 +1,24 @@
+#hero_header img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+#faq .section-outer {
+  padding-bottom: 12rem !important;
+}
+
+div.panel.z-99 {
+  width: 100vw;
+  position: absolute;
+  transform: translateY(-3rem);
+}
+
+#uc-footer img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.footer-cta .container .footer-inner {
+  margin-top: 10rem;
+}
