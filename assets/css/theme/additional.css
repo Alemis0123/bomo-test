@@ -22,3 +22,40 @@ div.panel.z-99 {
 .footer-cta .container .footer-inner {
   margin-top: 10rem;
 }
+
+@media (max-width: 458px) {
+  .buttons > a:first-child {
+    font-size: 0.9rem;
+    padding-inline: 0.5rem !important;
+  }
+}
+
+#buy-links > div {
+  padding: 0 !important;
+  display: flex;
+  background-color: #ffb0bd;
+  align-items: center;
+  justify-content: center;
+}
+
+#buy-links > div > img {
+  position: relative;
+  height: 30rem;
+  object-fit: cover;
+}
+
+.btn-buy {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  text-decoration: none;
+  gap: 0.5rem;
+}
+
+.buy-buttons {
+  flex-wrap: wrap;
+}
+
+.btn-buy img {
+  height: 3rem;
+}
